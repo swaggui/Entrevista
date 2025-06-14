@@ -1,0 +1,19 @@
+{
+    "name": "swagui/entrevista",
+    "description": "Rotas entre estados",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Swagui\\Entrevista\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "swaggui",
+            "email": "guilhermepreinaldo@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    }
+}
