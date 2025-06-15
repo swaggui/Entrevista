@@ -31,7 +31,7 @@ class MapaDeRotas
         'DF' => ['DF','GO', 'MG']
     ];
 
-    public function getVizinhos(string $estado): ?array
+    public function getRotas(string $estado): ?array
     {
         return self::MAPA_DE_ESTADOS[$estado] ?? null;
     }

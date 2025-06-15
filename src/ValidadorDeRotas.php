@@ -16,7 +16,7 @@ class ValidadorDeRotas
             $estadoAtual = trim($estados[$i]);
             $proximoEstado = trim($estados[$i + 1]);
 
-            $vizinhos = $this->mapaDeRotas->getVizinhos($estadoAtual);
+            $vizinhos = $this->mapaDeRotas->getRotas($estadoAtual);
 
             if ($vizinhos === null || !in_array($proximoEstado, $vizinhos)) {
                 return false;
