@@ -1,1 +1,1 @@
-{"version":1,"defects":{"ValidadorDeRotasTest::testRotaValida":7,"ValidadorDeRotasTest::testRotaInvalida":8},"times":{"ValidadorDeRotasTest::testRotaValida":0.004,"ValidadorDeRotasTest::testRotaInvalida":0}}
+{"version":1,"defects":{"ValidadorDeRotasTest::testRotaValida":7,"ValidadorDeRotasTest::testRotaInvalida":7},"times":{"ValidadorDeRotasTest::testRotaValida":0.004,"ValidadorDeRotasTest::testRotaInvalida":0}}

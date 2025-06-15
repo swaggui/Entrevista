@@ -20,6 +20,8 @@ class ValidadorDeRotasTest extends TestCase
         $this->assertTrue($this->validadorDeRotas->isRotaValida("RS,SC,PR"));
         $this->assertTrue($this->validadorDeRotas->isRotaValida("AM,PA,MA,PI,CE,RN"));
         $this->assertTrue($this->validadorDeRotas->isRotaValida("MG,GO,DF,GO,TO"));
+        $this->assertTrue($this->validadorDeRotas->isRotaValida("DF,MG,ES,RJ,MG,SP,MS,GO"));
+        $this->assertTrue($this->validadorDeRotas->isRotaValida("DF,DF"));
     }
 
     public function testRotaInvalida()

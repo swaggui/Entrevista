@@ -22,7 +22,6 @@ class ValidadorDeRotas
                 return false;
             }
         }
-
         return true;
     }
 }
