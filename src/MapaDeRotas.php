@@ -28,7 +28,7 @@ class MapaDeRotas
         'PE' => ['PB', 'CE', 'PI', 'BA', 'AL'],
         'AL' => ['PE', 'BA', 'SE'],
         'SE' => ['AL', 'BA'],
-        'DF' => ['GO']
+        'DF' => ['GO', 'MG']
     ];
 
     public function getVizinhos(string $estado): ?array
